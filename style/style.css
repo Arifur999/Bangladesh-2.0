@@ -1,0 +1,78 @@
+/* * {
+    background-color: rgb(235, 231, 231);
+    margin: 0;
+} */
+
+/* heading navbar */
+.navbar {
+    display: flex;
+
+    width: Fixed;
+    padding: 24px 160px 24px 160px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+
+.nav-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+
+}
+
+.nav-btn {
+    font-size: 18px;
+    font-weight: 600;
+    weight: 100px;
+    height: 40px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    margin: 0px;
+    color: #006A50;
+    cursor: pointer;
+
+}
+
+/* section hero */
+.hero {
+    background-color: #C6E4D6;
+    width: 1200px;
+    height: 520px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+.hero-img {
+    width: 474px;
+    height: 400px;
+    text-align: right;
+}
+
+.hero-1 {
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 55px 20px 30px 28px;
+}
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.hero-text p{
+    color: #0E0E0E80;
+    font-size: 24px;
+    font-weight: 500;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px 17px 34px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
