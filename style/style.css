@@ -3,18 +3,18 @@
 
 
 /* * {
-    background-color: rgb(235, 231, 231);
     margin: 0;
 } */
 * {
 
     font-family: "Fira Sans", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 
 
 }
-* p{
+
+* p {
     color: #0E0E0EB2;
 }
 
@@ -280,6 +280,7 @@
     color: white;
     cursor: pointer;
 }
+
 /* three-zeros section */
 
 /* .zeros{
@@ -290,9 +291,9 @@
 
 }
  */
-.three-zeros{
+.three-zeros {
     background-image: url("../assets/quote-bg.png");
-    background-size: 44px 44px ;
+    background-size: 44px 44px;
     background-repeat: no-repeat;
     width: 1140px;
     background-color: #e2e8e5;
@@ -300,31 +301,36 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 0 auto;
     padding: 0px 10px;
 }
-.three-zeros p{
+
+.three-zeros p {
     font-weight: 400;
 }
-.three-zeros h4{
+
+.three-zeros h4 {
     margin: 10px 0px;
     font-size: 20px;
     font-weight: 600;
 }
+
 /* table section */
 /* tbl{
     
     
 } */
-.tbl, td{
+.tbl,
+td {
     border: 1px solid rgba(10, 10, 10, 0.419);
     padding: 20px;
     border-collapse: collapse;
     width: 100%;
 
 }
-.thead{
+
+.thead {
     background-color: #C6E4D6;
     width: 1100px;
     display: flex;
@@ -333,49 +339,59 @@
     padding: 0px 20px;
 
 }
-.all-table{
+
+.all-table {
     width: 1140px;
     margin: 0 auto;
-background-color: #e6ebe8e4;
+    background-color: #e6ebe8e4;
 }
-.tbtn{
+
+.tbtn {
     background-color: #09A15C26;
     cursor: pointer;
 }
+
 /* section news */
-.News h1{
+.News h1 {
     font-weight: 700;
     font-size: 40px;
 }
-.news-des{
+
+.news-des {
     display: flex;
     width: 1140px;
-   
+
 }
-.satellit{
+
+.satellit {
     width: 320px;
     height: 300px;
     border-radius: 15px;
 }
-.aljazera{
+
+.aljazera {
     width: 130px;
     height: 35px;
 }
-.news-head{
+
+.news-head {
     align-items: flex-start;
     padding: 0px 0px 0px 10px;
 
 }
-.News{
+
+.News {
     width: 1150px;
     margin: 20px auto;
     padding: 10px 0px 40px 0px;
 }
-.news-head h2{
+
+.news-head h2 {
     font-weight: 700;
     font-size: 32px;
 }
-.news-btn{
+
+.news-btn {
     background-color: #006A50;
     color: white;
     width: 130px;
@@ -383,17 +399,134 @@ background-color: #e6ebe8e4;
     border-radius: 6px;
     padding: 13px 26px;
     border: 0;
+    cursor: pointer;
 }
 
 
 
-.News2{
+.News2 {
     display: flex;
     width: 1150px;
     margin: 20px auto;
 
 }
-.news-head2{
-    align-items:flex-end;
+
+.news-head2 {
+    align-items: flex-end;
     padding: 0px 0px 0px 10px;
-}    
+}
+
+/* donet box */
+.donat-box {
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.dnt-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.donat-box h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.taka {
+    justify-content: space-evenly;
+    width: 250px;
+    height: 115px;
+    border-radius: 10px;
+    border: 1px solid rgb(236, 232, 232);
+    padding: 35px;
+    gap: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+
+
+}
+
+.taka:hover {
+    background: #09A15C;
+    transition: 1s;
+}
+
+.info input {
+    width: 500px;
+    height: 30px;
+    text-align: center;
+}
+
+.info {
+    padding: 30px 0px 40px 0px;
+
+}
+
+.done {
+    width: 140px;
+    height: 50px;
+    border: 1px solid green;
+    border-radius: 6px;
+    background-color: #006A50;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/* last section */
+.last {
+    background-color: #C6E4D6;
+    width: 1120px;
+    height: 280px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.last h1 {
+    font-weight: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 30px;
+}
+
+.last input {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+
+}
+
+.submit {
+    width: 150px;
+    height: 42px;
+    background-color: #006A50;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+/* foooter */
+.footer {
+    text-align: center;
+    justify-content: center;
+    width: 1120px;
+    margin: 35px auto;
+}
+
+.footer h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
